@@ -1,0 +1,67 @@
+import subprocess
+import os
+import time
+
+import pandas as pd
+from time import sleep
+from tqdm import tqdm
+
+listAll = []
+COV_ENGHINES_PATH = '/root/.jsvu/engines/chakra-1.13-cov/ch'
+path = "/root/Comfort_all/data/cov_files/profraws_all/"
+
+
+def saveTocsv(listAll):
+    name = ['nums', 'Regions', 'MissedRegions', 'Cover', 'Functions', 'MissedFunctions', 'Executed', 'Lines',
+            'MissedLines', 'Cover']
+    test = pd.DataFrame(columns=name, data=listAll)
+    if not os.path.exists("testcsv.csv"):
+        test.to_csv('./testcsv.csv', encoding='gbk', index=None)
+    else:
+        test.to_csv('./testcsv.csv', encoding='gbk', index=None, mode='a', header=False)
+    print("已储存试验记录")
+
+
+def init_combine(files):
+    file1 = "/root/Comfort_all/data/cov_files/profraws_all/" + files[0]
+    cmd_coverage = f"llvm-profdata-10 merge  -o  1aidpaike.profdata  {file1} && llvm-cov-10 report {COV_ENGHINES_PATH} -instr-profile=1aidpaike.profdata"
+    pro = subprocess.Popen(cmd_coverage, stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True,
+                           stderr=subprocess.PIPE, universal_newlines=True)
+    stdout, stderr = pro.communicate()
+    # print(stdout)
+    # print(stderr)
+    print("初始化文件")
+    listAll.append(test_filter(stdout[-175:], 0))
+    print(listAll)
+
+
+def test_filter(str, flag):
+    str_list = str.split()
+    str_list.insert(0, flag)
+    return str_list
+
+
+files = os.listdir(path)
+print(len(files))
+print(files[0])
+if not os.path.exists("testcsv.csv"):
+    init_combine(files)
+flag = 0
+range_list = [i * 10 for i in range(100000)]
+for file in tqdm(files):
+    flag += 1
+    file_path = path + file
+    cmd_coverage = f"llvm-profdata-10 merge -sparse {file_path} 1aidpaike.profdata -o 1aidpaike.profdata && llvm-cov-10 report {COV_ENGHINES_PATH} -instr-profile=1aidpaike.profdata && rm {file_path}"
+    pro = subprocess.Popen(cmd_coverage, stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True,
+                           stderr=subprocess.PIPE, universal_newlines=True)
+    stdout, stderr = pro.communicate()
+    # print(stdout)
+    # print(stderr)
+    if flag in range_list:
+        try:
+            saveTocsv(listAll)
+        except Exception as e:
+            print(e)
+            print("保存文件出错了")
+        listAll = []
+    listAll.append(test_filter(stdout[-175:], flag))
