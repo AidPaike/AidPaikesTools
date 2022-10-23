@@ -115,7 +115,7 @@ if __name__ == '__main__':
     # 插桩后的chakra编译器路径
     COV_ENGHINES_PATH = '/root/.jsvu/engines/chakra-1.13-cov/ch'
     # 生成的testcase存储路径
-    testcase_path = "/root/DIE/testcase/"
+    testcase_path = "/root/DIE/testcase"
     # 旗帜：tmp list保存多少个cov数据进行一次写入csv操作
     flag = 0
     # 已经创建了多少profraw了，如果中途异常可以避免重新运行

@@ -74,7 +74,9 @@ class Md5Delete(object):
         pass
 
     def run(self):
+        print("即将生成文件啊MD5加密序列")
         self.check_md5()
+        print("即将查看是否重复，进行删除")
         self.judge_md5_delete()
 
 
