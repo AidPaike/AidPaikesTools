@@ -1,4 +1,6 @@
-#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# !/usr/bin/python3
+
 '''
 语法正确率
 '''
@@ -12,6 +14,7 @@ from tqdm import tqdm
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
+
 def cmd_jshint(temp_file_path):
     """
     使用jshint对生成的function进行检查\n
@@ -19,15 +22,14 @@ def cmd_jshint(temp_file_path):
     :return: 语法正确返回true,语法错误返回false
     """
     # cmd = ['timeout', '60s', 'jshint', temp_file_path]
-    cmd = ['timeout', '10s', 'jshint', '-c', '/DIE/process_data/.jshintrc', temp_file_path]
-
+    cmd = ['timeout', '10s', 'jshint', '-c', '/root/Comfort_all/data/.jshintrc', temp_file_path]
     if sys.platform.startswith('win'):  # 假如是windows
         p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
     else:  # 假如是linux
         p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = p.communicate()
-    if stdout:
-        print(stdout)
+    # if stdout:
+    #     print(stdout)
     # if stderr:
     #     print("error")
     #     print(stderr)
@@ -48,8 +50,7 @@ def testJshintPassRate(function):
         fine_code = function
         # fine_code = 'var NISLFuzzingFunc = ' + function
         # fine_code = function
-
-        tmpfile.write(fine_code.encode())
+        tmpfile.write(fine_code)
         tmpfile.seek(0)
         # tmpTxt = tmpfile.read().decode()
         # print(tmpTxt)
@@ -57,7 +58,8 @@ def testJshintPassRate(function):
         result = cmd_jshint(temp_file_path)
         if result:
             testJshintPassRateSet.add(function)
-
+        # else:
+        #     print(function)
 
 
 def repetitionRateGeneratedDataItself(allFunctions):
@@ -67,7 +69,7 @@ def repetitionRateGeneratedDataItself(allFunctions):
 
 
 def generateDataWithRepetitionRateTrainingSet(function):
-    trainDataFile = '/DIE/process_data/train_data_bos.txt'
+    trainDataFile = '/root/Comfort_all/data/datasets/train_data_bos.txt'
     with open(trainDataFile, 'r') as f:
         trainDatasetContents = f.read()
         if function in trainDatasetContents:
@@ -85,52 +87,39 @@ def multithreadedAnalysis(function):
     # generateDataWithRepetitionRateTrainingSet(function)
 
 
-def get_allfunctions() -> List:
+def howmanytestall(path):
+    cmd = f"ls -lh {path}|wc -l"
+    if sys.platform.startswith('win'):  # 假如是windows
+        p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
+    else:  # 假如是linux
+        p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+    stdout, stderr = p.communicate()
+    # print(int(stdout.decode('ascii')))
+    return int(stdout.decode('ascii'))
+
+
+if __name__ == '__main__':
+    # 考虑内存溢出
+    testJshintPassRateSet = set()
     functions = []
-    path = "/DIE/process_data/output_testcase/"
     count = 0
+    path = "/root/CodeAlchemist/testcase_all/"
+    testcase_num = howmanytestall(path)
+    print('待处理{}个方法'.format(testcase_num))
+
     for file in tqdm(os.listdir(path)):  # file 表示的是文件名
         count = count + 1
-        file = open(path+file)
+        file = open(path + file, mode='rb')
         try:
             file_context = file.read()
             functions.append(file_context)
         finally:
             file.close()
-    print("共获取到了"+str(count)+"个函数文件！")
-    return functions
-
-
-allFunctions = get_allfunctions()
-
-totalSize = len(allFunctions)
-
-print('总共有{}个方法'.format(totalSize))
-
-generateDataWithRepetitionRateTrainingSetCount = 0
-
-testJshintPassRateSet = set()
-
-averageNumberRowsToGenerateDataCount = 0
-
-pool = ThreadPool()
-
-pool.map(multithreadedAnalysis, allFunctions)
-
-pool.close()
-
-pool.join()
-
-# noRepeatFunctionsSize = repetitionRateGeneratedDataItself(allFunctions)
-
-print("生成的用例语法正确率为{:.2%},".format(len(testJshintPassRateSet) / totalSize))
-
-# print("生成数据本身的重复率为{:.2%}".format(1 - noRepeatFunctionsSize / totalSize))
-
-# print("生成数据与训练集的重复率为{:.2%}".format(generateDataWithRepetitionRateTrainingSetCount / totalSize))
-
-# 统计通过语法检查的代码行数
-for testJshintPassRate in tqdm(testJshintPassRateSet):
-    averageNumberRowsToGenerateData(testJshintPassRate)
-
-print("语法正确方法的平均行数为{}行".format(int(averageNumberRowsToGenerateDataCount / totalSize)))
+        if len(functions) > 10:
+            pool = ThreadPool()
+            pool.map(multithreadedAnalysis, functions)
+            pool.close()
+            pool.join()
+            functions = []
+            # print("处理了" + str(count) + "个函数文件！")
+    print("生成的用例语法正确率为{:.2%},".format(len(testJshintPassRateSet) / testcase_num))
