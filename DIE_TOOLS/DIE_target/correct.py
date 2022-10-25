@@ -59,6 +59,7 @@ def testJshintPassRate(function):
             testJshintPassRateSet.add(function)
 
 
+
 def repetitionRateGeneratedDataItself(allFunctions):
     noRepeatFunctions = set(allFunctions)
     noRepeatFunctionsSize = len(noRepeatFunctions)

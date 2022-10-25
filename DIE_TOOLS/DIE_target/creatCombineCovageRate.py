@@ -42,7 +42,7 @@ def createCovageRateFile(start, database_len):
 def get_all_testcase(testcase_path) -> List:
     testcaseAll = []
     for file in os.listdir(testcase_path):  # file 表示的是文件名
-        testcaseAll.append(file)
+        # testcaseAll.append(file)
         file = open(testcase_path + file)
         try:
             file_context = file.read()
@@ -137,7 +137,7 @@ if __name__ == '__main__':
     files = [create_profraws_path + i for i in files]
 
     # 如果不存在结果csv 则建立这个文件
-    if not os.path.exists("DIE-Cov.csv"):
+    if not os.path.exists("testcsv.csv"):
         listAll = init_combine(files)
 
     # 生成写入csv

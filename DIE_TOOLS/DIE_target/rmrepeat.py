@@ -13,11 +13,12 @@ def get_md5(file_path):
     file_hash = hashlib.md5()
     f = open(file_path, 'rb')
     while True:
-        b = f.read(8096)
+        b = f.read()
         if not b:
             break
         file_hash.update(b)
     f.close()
+    print(file_hash.hexdigest())
     return file_hash.hexdigest()
 
 
@@ -81,7 +82,7 @@ class Md5Delete(object):
 
 
 def run():
-    mmd5 = Md5Delete(r"/DIE/process_data/output_testcase")
+    mmd5 = Md5Delete(r"C:\Users\fanfan\PycharmProjects\AidPaikeProject\DIE_TOOLS\DIE_target\test\\")
     mmd5.run()
     pass
 
