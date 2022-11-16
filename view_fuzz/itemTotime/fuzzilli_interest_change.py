@@ -7,16 +7,16 @@ thresh：设置需要多少非空值的数据才可以保留下来的。
 subset：设置想要检查的列。如果是多个列，可以使用列名的 list 作为参数。
 inplace：如果设置 True，将计算得到的值直接覆盖之前的值并返回 None，修改的是源数据。
 '''
-path_die = '../dataset/DIE_cov.csv'
+fuzzilli_data = '../dataset/fuzzilli_interest_cov.csv'
 
 # 使用pandas读入
-die_comfuzz = pd.read_csv(path_die)  # 读die
-die_comfuzz = die_comfuzz.dropna(axis=0, how='all', thresh=None,
+fuzzilli_data = pd.read_csv(fuzzilli_data)  # 读fuzzilli
+fuzzilli_data = fuzzilli_data.dropna(axis=0, how='all', thresh=None,
                                  subset=["Regions", "Functions", "Lines"], inplace=False)
-time_data_die = die_comfuzz[::5]
-time = [(i + 1) for i in range(len(time_data_die))]
-time_data_die = time_data_die.copy()
-time_data_die['time'] = time
+
+time_data_fuzzilli = fuzzilli_data
+time = [(i + 1) for i in range(len(time_data_fuzzilli))]
+time_data_fuzzilli = time_data_fuzzilli.copy()
+time_data_fuzzilli['time'] = time
 # print(time_data_die)
-time_data_die.to_csv("../dataset/time_DIE_cov.csv", index=None)
-# print("共用了",str(114602/8/60/60)+"个小时")
+time_data_fuzzilli.to_csv("../dataset/time_fuzzilli_interest_cov.csv", index=None)

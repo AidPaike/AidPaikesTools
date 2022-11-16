@@ -64,10 +64,11 @@ class MyEventHandler(pyinotify.ProcessEvent):
         :param event:
         :return:
         """
-        if event.pathname == "/DIE/output-1/.cur_input.js":
-            save_tmp(1)
-        elif event.pathname == "/DIE/output-0/.cur_input.js":
-            save_tmp(0)
+        try:
+            save_tmp(event.pathname)
+        except Exception as e:
+            print(e)
+            print("保存文件出错了")
         print("文件被修改:", event.pathname)
 
     def process_IN_OPEN(self, event):
@@ -78,29 +79,25 @@ class MyEventHandler(pyinotify.ProcessEvent):
         """
         print("OPEN event:", event.pathname)
 
-
-def save_tmp(i):
-    global flag
-    path = path_testcase + "/{}".format(flag) + ".js"
-    from_path = "output-" + str(i) + "/.cur_input.js"
-    copyfile(from_path, path)
-    print("复制" + from_path + "到" + str(path))
-    flag += 1
-    print("已储存" + str(flag))
+#
+# def save_tmp(name):
+#     global flag
+#     path = CodeAlchemist_path + str(flag) + ".js"
+#     from_path = name
+#     copyfile(from_path, path)
+#     print("复制" + from_path + "到" + str(path))
+#     flag += 1
+#     print("已储存" + str(flag))
 
 
 if __name__ == '__main__':
-    watch_dir = "/DIE/output-1/.cur_input.js"
-    watch_dir2 = "/DIE/output-0/.cur_input.js"
-    path_testcase = "/DIE/output_testcase2"
+    watch_dir = "/"
+    CodeAlchemist_path = "/root/CodeAlchemist/testcase_all/"
     monitor_obj = pyinotify.WatchManager()
     # path监控的目录
     monitor_obj.add_watch(watch_dir, pyinotify.IN_MODIFY, rec=True)
-    monitor_obj.add_watch(watch_dir2, pyinotify.IN_MODIFY, rec=True)
-
     # event handler
     event_handler = MyEventHandler()
-
     # notifier
     monitor_loop = pyinotify.Notifier(monitor_obj, event_handler)
     monitor_loop.loop()
