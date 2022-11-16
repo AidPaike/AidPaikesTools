@@ -13,8 +13,8 @@ path_die = '../dataset/DIE_cov.csv'
 die_comfuzz = pd.read_csv(path_die)  # 读die
 die_comfuzz = die_comfuzz.dropna(axis=0, how='all', thresh=None,
                                  subset=["Regions", "Functions", "Lines"], inplace=False)
-time_data_die = die_comfuzz
-time = [(i + 1) * 2 for i in range(len(time_data_die))]
+time_data_die = die_comfuzz[::5]
+time = [(i + 1) for i in range(len(time_data_die))]
 time_data_die = time_data_die.copy()
 time_data_die['time'] = time
 # print(time_data_die)

@@ -10,7 +10,7 @@ def read_log():
     读取日志文件,进行数据重组,写入mysql
     :return:
     """
-    file = "./dataset/fuzzilli.log"
+    file = "./dataset/fuzzilli_interest.log"
     with open(file) as f:
         """使用while循环每次只读取一行,读到最后一行的时候结束"""
         while True:
@@ -88,4 +88,4 @@ if __name__ == '__main__':
     print(len(Coverage_list))
     print(len(totalsample_list))
     Data = {'success_rate_list': success_rate_list, 'Coverage_list': Coverage_list, 'totalsample_list': totalsample_list}
-    Save_to_Csv(data=Data, file_name='fuzzilli_data', Save_format='csv', Save_type='col')
+    Save_to_Csv(data=Data, file_name='fuzzilli_interest_cov', Save_format='csv', Save_type='col')
