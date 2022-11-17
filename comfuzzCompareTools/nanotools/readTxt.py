@@ -13,6 +13,7 @@ try:
 finally:
     file.close()
 
+
 def get_all_testcase(testcase_path) -> List:
     testcaseAll = []
     for file in os.listdir(testcase_path):  # file 表示的是文件名
