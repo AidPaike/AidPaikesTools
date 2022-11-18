@@ -12,5 +12,5 @@ time_data_codeAl = time_data_codeAl.copy()
 time_data_codeAl['time'] = time
 print(time_data_codeAl)
 time_data_codeAl.to_csv("../dataset/time_codeAl_data_15.csv",index=None)
-#20221118
+
 
