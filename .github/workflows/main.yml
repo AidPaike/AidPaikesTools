@@ -28,9 +28,9 @@ jobs:
         run: |
           pytest --cov=./src --cov-report=xml
           bash <(curl https://codecov.io/bash)
-          cd src
-          python request.py
-          cd ..
+#          cd src
+#          python request.py
+#          cd ..
 #      - name: Upstream to Standards
 #        env:
 #          GH_TOKEN: ${{ secrets.GH_TOKEN }}
