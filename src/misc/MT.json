@@ -1,0 +1,240 @@
+[
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/RB5009UPrS_220805.png",
+    "hardware_version": "RB5009UPrS_220805",
+    "vender": "MikroTik",
+    "device_type": "RB5009UPr+S+IN",
+    "firmware_name": "rb5009upr 2Bs 2Bin"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/hex_201057.zip",
+    "hardware_version": "hex_201057",
+    "vender": "MikroTik",
+    "device_type": "RB750r2",
+    "firmware_name": "hex lite"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/mt7621L_3.35.fwf",
+    "hardware_version": "mt7621L_3.35",
+    "vender": "MikroTik",
+    "device_type": "RB750Gr3",
+    "firmware_name": "hex"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/qca9531L_3.41.fwf",
+    "hardware_version": "qca9531L_3.41",
+    "vender": "MikroTik",
+    "device_type": "RB750UPr2",
+    "firmware_name": "hex poe lite"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/qca9531L_3.41.fwf",
+    "hardware_version": "qca9531L_3.41",
+    "vender": "MikroTik",
+    "device_type": "RB750P-PBr2",
+    "firmware_name": "powerbox"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/RB960PGS_161241.png",
+    "hardware_version": "RB960PGS_161241",
+    "vender": "MikroTik",
+    "device_type": "RB960PGS",
+    "firmware_name": "hex poe"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/HEXs-DIM-v1_210736.pdf",
+    "hardware_version": "HEXs-DIM-v1_210736",
+    "vender": "MikroTik",
+    "device_type": "RB760iGS",
+    "firmware_name": "hex s"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/RB2011iL-160620170215_160615.png",
+    "hardware_version": "RB2011iL-160620170215_160615",
+    "vender": "MikroTik",
+    "device_type": "RB2011iL-IN",
+    "firmware_name": "rb2011il-in"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/RB2011iL-160620170215_160615.png",
+    "hardware_version": "RB2011iL-160620170215_160615",
+    "vender": "MikroTik",
+    "device_type": "RB2011iL-RM",
+    "firmware_name": "rb2011il-rm"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/PB-out-dim_210926.pdf",
+    "hardware_version": "PB-out-dim_210926",
+    "vender": "MikroTik",
+    "device_type": "RB960PGS-PB",
+    "firmware_name": "powerbox pro"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/RB2011-c-pcb.STEP-150427152509_150409.zip",
+    "hardware_version": "RB2011-c-pcb.STEP-150427152509_150409",
+    "vender": "MikroTik",
+    "device_type": "RB2011iLS-IN",
+    "firmware_name": "rb2011ils-in"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/RB2011-c-pcb.STEP-150427152509_150409.zip",
+    "hardware_version": "RB2011-c-pcb.STEP-150427152509_150409",
+    "vender": "MikroTik",
+    "device_type": "RB2011UiAS-INr2",
+    "firmware_name": "rb2011uias-in"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/RB2011UiAS-160620170256_160656.png",
+    "hardware_version": "RB2011UiAS-160620170256_160656",
+    "vender": "MikroTik",
+    "device_type": "RB2011UiAS-RMr2",
+    "firmware_name": "rb2011uias-rm"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/ipq8060_3.41.fwf",
+    "hardware_version": "ipq8060_3.41",
+    "vender": "MikroTik",
+    "device_type": "RB3011UiAS-RM",
+    "firmware_name": "rb3011uias-rm"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/dimensionaldrawing2004PCIev1_220202.pdf",
+    "hardware_version": "dimensionaldrawing2004PCIev1_220202",
+    "vender": "MikroTik",
+    "device_type": "CCR2004-1G-2XS-PCIe",
+    "firmware_name": "ccr2004-1g-2xs-pcie"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/011-MT-Dimensions_210758.pdf",
+    "hardware_version": "011-MT-Dimensions_210758",
+    "vender": "MikroTik",
+    "device_type": "RB4011iGS+RM",
+    "firmware_name": "rb4011igs 2Brm"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/RB5009UGS_220852.png",
+    "hardware_version": "RB5009UGS_220852",
+    "vender": "MikroTik",
+    "device_type": "RB5009UG+S+IN",
+    "firmware_name": "rb5009ug 2Bs 2Bin"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/RB1100AHx4v5_180118.png",
+    "hardware_version": "RB1100AHx4v5_180118",
+    "vender": "MikroTik",
+    "device_type": "RB1100x4",
+    "firmware_name": "rb1100ahx4"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/al2_3.35.5.fwf",
+    "hardware_version": "al2_3.35.5",
+    "vender": "MikroTik",
+    "device_type": "RB1100Dx4",
+    "firmware_name": "rb1100ahx4 dude edition"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/CCR1009-7G-1C-PC_200604.png",
+    "hardware_version": "CCR1009-7G-1C-PC_200604",
+    "vender": "MikroTik",
+    "device_type": "CCR1009-7G-1C-PC",
+    "firmware_name": "ccr1009-7g-1c-pc"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/CCR2004-16G-2S_210931.png",
+    "hardware_version": "CCR2004-16G-2S_210931",
+    "vender": "MikroTik",
+    "device_type": "CCR2004-16G-2S+",
+    "firmware_name": "ccr2004-16g-2s 2B"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/CCR2004-16G-2SPC_220414.png",
+    "hardware_version": "CCR2004-16G-2SPC_220414",
+    "vender": "MikroTik",
+    "device_type": "CCR2004-16G-2S+PC",
+    "firmware_name": "ccr2004-16g-2s 2Bpc"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/tilegx_3.41.fwf",
+    "hardware_version": "tilegx_3.41",
+    "vender": "MikroTik",
+    "device_type": "CCR1009-7G-1C-1S+PC",
+    "firmware_name": "ccr1009-7g-1c-1s 2Bpc"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/tilegx_3.41.fwf",
+    "hardware_version": "tilegx_3.41",
+    "vender": "MikroTik",
+    "device_type": "CCR1009-7G-1C-1S+",
+    "firmware_name": "ccr1009-7g-1c-1s 2B"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/CCR2004-1G-12Splus2XS_200459.png",
+    "hardware_version": "CCR2004-1G-12Splus2XS_200459",
+    "vender": "MikroTik",
+    "device_type": "CCR2004-1G-12S+2XS",
+    "firmware_name": "ccr2004-1g-12s 2B2xs"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/tilegx_3.41.fwf",
+    "hardware_version": "tilegx_3.41",
+    "vender": "MikroTik",
+    "device_type": "CCR1016-12Gr2",
+    "firmware_name": "ccr1016-12g"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/tilegx_3.41.fwf",
+    "hardware_version": "tilegx_3.41",
+    "vender": "MikroTik",
+    "device_type": "CCR1016-12S-1S+r2",
+    "firmware_name": "ccr1016-12s-1s 2B"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/CCR2116-12G-4S_211233.png",
+    "hardware_version": "CCR2116-12G-4S_211233",
+    "vender": "MikroTik",
+    "device_type": "CCR2116-12G-4S+",
+    "firmware_name": "ccr2116-12g-4s 2B"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/tilegx_3.41.fwf",
+    "hardware_version": "tilegx_3.41",
+    "vender": "MikroTik",
+    "device_type": "CCR1036-12G-4Sr2",
+    "firmware_name": "ccr1036-12g-4s"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/tilegx_3.41.fwf",
+    "hardware_version": "tilegx_3.41",
+    "vender": "MikroTik",
+    "device_type": "CCR1036-8G-2S+r2",
+    "firmware_name": "ccr1036-8g-2s 2B"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/tilegx_3.41.fwf",
+    "hardware_version": "tilegx_3.41",
+    "vender": "MikroTik",
+    "device_type": "CCR1036-12G-4S-EMr2",
+    "firmware_name": "ccr1036-12g-4s-em"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/tilegx_3.41.fwf",
+    "hardware_version": "tilegx_3.41",
+    "vender": "MikroTik",
+    "device_type": "CCR1036-8G-2S+EMr2",
+    "firmware_name": "ccr1036-8g-2s 2Bem"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/product_files/CCR2216_DIMENSION_220238.pdf",
+    "hardware_version": "CCR2216_DIMENSION_220238",
+    "vender": "MikroTik",
+    "device_type": "CCR2216-1G-12XS-2XQ",
+    "firmware_name": "ccr2216-1g-12xs-2xq"
+  },
+  {
+    "download_link": "https://i.mt.lv/cdn/rb_bootloaders/tilegx_3.41.fwf",
+    "hardware_version": "tilegx_3.41",
+    "vender": "MikroTik",
+    "device_type": "CCR1072-1G-8S+",
+    "firmware_name": "ccr1072-1g-8s 2B"
+  }
+]
