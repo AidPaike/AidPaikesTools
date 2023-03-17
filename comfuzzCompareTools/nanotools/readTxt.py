@@ -25,3 +25,7 @@ def get_all_testcase(testcase_path) -> List:
         finally:
             file.close()
     return testcaseAll
+
+
+if __name__ == '__main__':
+    print("hello world")

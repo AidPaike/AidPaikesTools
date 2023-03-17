@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1e71c945-ded2-499a-9e74-42b3f9034964" name="26">
+        <fileTransfer rootFolder="/home/disk4T/nisl812/fzy" accessType="SFTP" host="10.15.0.26" port="22" sshConfigId="3f57b419-effa-40a3-bd98-cb6d8f226acb" sshConfig="nisl812@10.15.0.26:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="99e3388a-7ede-45cd-bc1a-3b1b9c3794cf" name="dockercontainer10086">
+        <fileTransfer rootFolder="/root" accessType="SFTP" host="10.15.0.26" port="10086" sshConfigId="76c10970-f550-4088-a839-bdac6e15fd71" sshConfig="root@10.15.0.26:10086 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a2f75a75-ff93-4dd4-859e-ffc0b5cc1d56" name="35">
+        <fileTransfer rootFolder="/home/nisl1/nisl8121" accessType="SFTP" host="10.15.0.35" port="22" sshConfigId="1c17bca1-9694-4580-9fb0-864e27071684" sshConfig="nisl8121@10.15.0.35:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

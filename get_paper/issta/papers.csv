@@ -1,0 +1,365 @@
+year,title
+2018,"Analyzing the Analyzers: FlowDroid/IccTA, AmanDroid, and DroidSafe"
+2018,An Empirical Study on TensorFlow Program Bugs
+2018, Pre-print
+2018,Automated Test Mapping and Coverage for Network Topologies
+2018,Automatically Translating Bug Reports into Test Cases for Mobile Apps
+2018,Badger: Complexity Analysis with Fuzzing and Symbolic Execution
+2018,Bench4BL: Reproducibility Study on the Performance of IR-Based Bug Localization
+2018,CiD: Automating the Detection of API-related Compatibility Issues in Android Apps
+2018,Comparing developer-provided to user-provided tests for fault localization and automated program repair
+2018,Compiler Fuzzing through Deep Learning
+2018,Deep Specification Mining
+2018,Eliminating Timing Side-channel Leaks Using Program Repair
+2018,Evaluating Test-Suite Reduction in Real-World Software Evolution
+2018,Exploiting Community Structure for Floating-Point Precision Tuning
+2018,Identifying Implementation Bugs in Machine Learning based Image Classifiers using Metamorphic Testing
+2018,Lightweight Verification of Array Indexing
+2018,Making Data-Driven Porting Decisions with Tuscan
+2018,PerfFuzz: Automatically Generating Pathological Inputs
+2018,piCoq: Parallel Regression Proving for Large-Scale Verification Projects
+2018,Practical Detection of Concurrency Issues at Coding Time
+2018,Remove RATs from Your Code: Automated Optimization of Resource Inefficient Database Writes for Mobile Applications
+2018,Repositioning of Static Analysis Alarms
+2018,Safe and Sound Program Analysis with Flix
+2018,Search-Based Detection of Deviation Failures in the Migration of Legacy Spreadsheet Applications
+2018,Shaping Program Repair Space with Existing Patches and Similar Code
+2018, Pre-print
+2018,Shooting from the Heap: Ultra-Scalable Static Analysis with Heap Snapshots
+2018,Static Analysis of Java Dynamic Proxies
+2018,Symbolic Path Cost Analysis for Side-Channel Detection
+2018,Test Case Prioritization for Acceptance Testing of Cyber Physical Systems: A Multi-Objective Search-Based Approach
+2018,Test Migration for Efficient Large-Scale Assessment of Mobile App Coding Assignments
+2018,Tests from Traces: Automated Unit Test Extraction for R
+2018,Translating Code Comments to Procedure Specifications
+2019,Adlib: Analyzer for Mobile Ad Platform Libraries
+2019, DOI
+2019, Pre-print
+2019,A Large-Scale Study of Application Incompatibilities in Android
+2019, Pre-print
+2019,Assessing the State and Improving the Art of Parallel Testing for C
+2019,Automated API-Usage Update for Android Apps
+2019,Automatically Testing Self-Driving Cars with Search-based Procedural Content Generation
+2019,Codebase-Adaptive Detection of Security-Relevant Methods
+2019, DOI
+2019, Pre-print
+2019, Media Attached
+2019, File Attached
+2019,Crash-avoiding Program Repair
+2019,DeepFL: Integrating Multiple Fault Diagnosis Dimensions for Deep Fault Localization
+2019,DeepHunter: A Coverage-Guided Fuzz Testing Framework for Deep Neural Networks
+2019,Deferred Concretization in Symbolic Execution via Fuzzing
+2019,Detecting Memory Errors at Runtime with Source-Level Instrumentation
+2019,Differentially Testing Soundness and Precision of Program Analyzers
+2019, Pre-print
+2019,Effective and Efficient API Misuse Detection via Exception Propagation and Search-based Testing
+2019, DOI
+2019, Pre-print
+2019, Media Attached
+2019,Exploiting The Laws of Order in Smart Contracts
+2019,Failure Clustering Without Coverage
+2019,History-driven Build Failure Fixing: How Far Are We?
+2019,Improving Random GUI Testing with Image-based Widget Detection
+2019,Interactive Metamorphic Testing of Debuggers
+2019, Link to publication
+2019, DOI
+2019, Pre-print
+2019,"Judge: Identifying, Understanding, and Evaluating Sources of Unsoundness in Call Graphs"
+2019, Pre-print
+2019, File Attached
+2019,Learning User Interface Element Interactions
+2019, Pre-print
+2019, Media Attached
+2019,LibID: Reliable Identification of Obfuscated Third-Party Android Libraries
+2019, DOI
+2019, Pre-print
+2019,Mining Android Crash Fixes in the Absence of Issue- and Change-Tracking Systems
+2019,Mitigating the Effects of Flaky Tests on Mutation Testing
+2019, Pre-print
+2019, Media Attached
+2019,Optimal Context-Sensitive Dynamic Partial Order Reduction with Observers
+2019,Practical Program Repair via Bytecode Mutation
+2019, Pre-print
+2019,QADroid: Regression Event Selection for Android Applications
+2019,Root Causing Flaky Tests in a Large-scale Industrial Setting
+2019,SARA: Self-replay Augmented Record and Replay for Android in Industrial Cases
+2019,Search-based Test and Improvement of Machine-Learning-Based Anomaly Detection Systems
+2019,Semantic Fuzzing with Zest
+2019, Link to publication
+2019, DOI
+2019, Pre-print
+2019,TBar: Revisiting Template-based Automated Program Repair
+2019, Pre-print
+2019,TestMig: Migrating GUI Test Cases from iOS to Android
+2021,AdvDoor: Adversarial Backdoor Attack of Deep Learning System
+2021, DOI
+2021,A Lightweight Framework for Function Name Reassignment Based on Large-Scale Stripped BinariesACM SIGSOFT Distinguished Paper
+2021, DOI
+2021,An Infrastructure Approach to Improving Effectiveness of Android UI Testing Tools
+2021, Link to publication
+2021, DOI
+2021, Media Attached
+2021,Attack as Defense: Characterizing Adversarial Examples using Robustness
+2021, DOI
+2021, Media Attached
+2021,Automated Patch Backporting in Linux (Experience Paper)Distinguished Artifact
+2021, DOI
+2021, Pre-print
+2021, Media Attached
+2021,Automatic Test Suite Generation for Key-Points Detection DNNs using Many-Objective Search (Experience Paper)
+2021, DOI
+2021,Boosting Symbolic Execution via Constraint Solving Time Prediction (Experience Paper)
+2021, DOI
+2021, File Attached
+2021,Challenges and Opportunities: An In-Depth Empirical Study on Configuration Error Injection Testing
+2021, DOI
+2021, File Attached
+2021,Continuous Test Suite Failure Prediction
+2021, DOI
+2021, Media Attached
+2021,DeepCrime: Mutation Testing of Deep Learning Systems Based on Real Faults
+2021, DOI
+2021,DeepHyperion: Exploring the Feature Space of Deep Learning-Based Systems through Illumination Search
+2021, DOI
+2021, File Attached
+2021,Deep Just-in-Time Defect Prediction: How Far Are We?
+2021, DOI
+2021,DialTest: Automated Testing for Recurrent-Neural-Network-Driven Dialogue Systems
+2021, DOI
+2021,Efficient White-Box Fairness Testing through Gradient Search
+2021, DOI
+2021, Media Attached
+2021,Empirical Evaluation of Smart Contract Testing: What Is the Best Choice?
+2021, DOI
+2021, File Attached
+2021,Empirically Evaluating Readily Available Information for Regression Test Optimization in Continuous Integration
+2021, DOI
+2021,Exposing Previously Undetectable Faults in Deep Neural Networks
+2021, DOI
+2021, Pre-print
+2021, Media Attached
+2021,"Faster, Deeper, Easier: Crowdsourcing Diagnosis of Microservice Kernel Failure from User Space"
+2021, DOI
+2021, Media Attached
+2021, File Attached
+2021,Finding Data Compatibility Bugs with JSON Subschema CheckingDistinguished Artifact
+2021, Link to publication
+2021, DOI
+2021, Pre-print
+2021, File Attached
+2021,Fixing Dependency Errors for Python Build Reproducibility
+2021, DOI
+2021,Fuzzing SMT Solvers via Two-Dimensional Input Space Exploration
+2021, DOI
+2021,Gramatron: Effective Grammar-Aware Fuzzing
+2021, DOI
+2021, Pre-print
+2021, Media Attached
+2021, File Attached
+2021,Grammar-Agnostic Symbolic Execution by Token Symbolization
+2021, DOI
+2021,GUIDER: GUI Structure and Vision Co-Guided Test Script Repair for Android Apps
+2021, DOI
+2021,HomDroid: Detecting Android Covert Malware by Social-Network Homophily Analysis
+2021, DOI
+2021,Identifying Privacy Weaknesses from Multi-party Trigger-Action Integration Platforms
+2021, DOI
+2021, Media Attached
+2021, File Attached
+2021,iDEV: Exploring and Exploiting Semantic Deviations in ARM Instruction Processing
+2021, DOI
+2021,Interval Constraint-Based Mutation Testing of Numerical Specifications
+2021, DOI
+2021,Log-Based Slicing for System-Level Test Cases
+2021, DOI
+2021, Media Attached
+2021,Model-Based Testing of Networked Applications
+2021, DOI
+2021, Pre-print
+2021,ModelDiff: Testing-Based DNN Similarity Comparison for Model Reuse Detection
+2021, DOI
+2021,Modular Call Graph Construction for Security Scanning of Node.js Applications
+2021, DOI
+2021, Media Attached
+2021,Parema: An Unpacking Framework for Demystifying VM-Based Android Packers
+2021, DOI
+2021,Predoo: Precision Testing of Deep Learning Operators
+2021, DOI
+2021,QFuzz: Quantitative Fuzzing for Side Channels
+2021, DOI
+2021, Pre-print
+2021, Media Attached
+2021,RAProducer: Efficiently Diagnose and Reproduce Data Race Bugs for Binaries via Trace Analysis
+2021, DOI
+2021,Runtime Detection of Memory Errors with Smart Status
+2021, DOI
+2021, Media Attached
+2021,SAND: A Static Analysis Approach for Detecting SQL AntipatternsACM SIGSOFT Distinguished Paper
+2021, DOI
+2021,Seed Selection for Successful Fuzzing
+2021, DOI
+2021, Pre-print
+2021, File Attached
+2021,Semantic Matching of GUI Events for Test Reuse: Are We There Yet?
+2021, DOI
+2021, Pre-print
+2021,Semantic Table Structure Identification in Spreadsheets
+2021, DOI
+2021, Media Attached
+2021,Synthesize Solving Strategy for Symbolic Execution
+2021, DOI
+2021,TERA: Optimizing Stochastic Regression Tests in Machine Learning Projects
+2021, DOI
+2021,Test-Case Prioritization for Configuration TestingACM SIGSOFT Distinguished Paper
+2021, DOI
+2021,The Impact of Tool Configuration Spaces on the Evaluation of Configurable Taint Analysis for Android
+2021, DOI
+2021, Pre-print
+2021,Toward Optimal MC/DC Test Case Generation
+2021, DOI
+2021,Type and Interval Aware Array Constraint Solving for Symbolic ExecutionACM SIGSOFT Distinguished Paper
+2021, DOI
+2021,UAFSan: An Object-Identifier-Based Dynamic Approach for Detecting Use-After-Free Vulnerabilities
+2021, DOI
+2021, Media Attached
+2021, File Attached
+2021,Understanding and Finding System Setting-Related Defects in Android Apps
+2021, DOI
+2021, Media Attached
+2021,Validating Static Warnings via Testing Code Fragments
+2021, DOI
+2021,WebEvo: Taming Web Application Evolution via Detecting Semantic Structure Changes
+2021, DOI
+2021, File Attached
+2022,AEON: A Method for Automatic Evaluation of NLP Test Cases
+2022, DOI
+2022,A Large-Scale Empirical Analysis of the Vulnerabilities Introduced by Third-party Components in IoT Firmware
+2022, DOI
+2022,A Large-scale Study of Usability Criteria addressed by Static Analysis Tools
+2022, DOI
+2022,Almost Correct Invariants: Synthesizing Inductive Invariants by Fuzzing Proofs
+2022, DOI
+2022,An Empirical Study on the Effectiveness of Static C/C++ Analyzers for Vulnerability Detection
+2022, DOI
+2022, Pre-print
+2022,An Extensive Study on Pre-trained Models for Program Understanding and Generation
+2022, DOI
+2022,ASRTest: Automated Testing for Deep-Neural-Network-Driven Speech Recognition Systems
+2022, DOI
+2022,ATR: Template-based Repair for Alloy Specifications
+2022, DOI
+2022,Automated Test Generation for REST APIs: No Time to Rest Yet
+2022, DOI
+2022,Automated Testing of Image Captioning Systems
+2022, DOI
+2022,Automatically Detecting API-induced Compatibility Issues in Android Apps: A Comparative Analysis (Replicability Study)
+2022, DOI
+2022,BET: Black-box Efficient Testing for Convolutional Neural Networks
+2022, DOI
+2022,CIRCLE: Continual Repair across Programming Languages
+2022, DOI
+2022,Combining Solution Reuse and Bound Tightening for Efficient Analysis of Evolving SystemsACM SIGSOFT Distinguished Paper
+2022, DOI
+2022,Combining Static Analysis Error Traces with Dynamic Symbolic Execution (Experience Paper)
+2022, DOI
+2022, Pre-print
+2022,Cross-Lingual Transfer Learning for Statistical Type InferenceACM SIGSOFT Distinguished Paper
+2022, DOI
+2022,Deadlock Prediction via Generalized Dependency
+2022, DOI
+2022,Detecting and Fixing Data Loss Issues in Android Apps
+2022, DOI
+2022,Detecting Multi-Sensor Fusion Errors in Advanced Driver-Assistance Systems
+2022, DOI
+2022,Detecting Resource Utilization Bugs Induced by Variant Lifecycles in Android
+2022, DOI
+2022,DocTer: Documentation-Guided Fuzzing for Testing Deep Learning API Functions
+2022, DOI
+2022,Efficient Greybox Fuzzing of Applications in Linux-based IoT Devices via Enhanced User-mode Emulation
+2022, DOI
+2022,eTainter: Detecting Gas-Related Vulnerabilities in Smart Contracts
+2022, DOI
+2022,Evolution-Aware Detection of Order-Dependent Flaky Tests
+2022, DOI
+2022,FDG: A Precise Measurement of Fault Diagnosability Gain of Test Cases
+2022, DOI
+2022, Pre-print
+2022,Finding Bugs in Gremlin-Based Graph Database Systems via Randomized Differential Testing
+2022, DOI
+2022,Finding Permission Bugs in Smart Contracts with Role MiningACM SIGSOFT Distinguished Paper
+2022, DOI
+2022, Pre-print
+2022,Human-in-the-Loop Oracle Learning for Semantic Bugs in String Processing Programs
+2022, DOI
+2022, Pre-print
+2022,Hunting Bugs with Accelerated Optimal Graph Vertex Matching
+2022, DOI
+2022,HybridRepair: Towards Annotation-Efficient Repair for Deep Learning Models
+2022, DOI
+2022,Improving Cross-Platform Binary Analysis using Representation Learning via Graph Alignment
+2022, DOI
+2022,jTrans: Jump-Aware Transformer for Binary Code Similarity Detection
+2022, DOI
+2022, Pre-print
+2022,LiRTest: Augmenting LiDAR Point Clouds for Automated Testing of Autonomous Driving Systems
+2022, DOI
+2022,MDPFuzz: Testing Models Solving Markov Decision Processes
+2022, DOI
+2022,Metamorphic Relations via Relaxations: An Approach to Obtain Oracles for Action-Policy Testing
+2022, DOI
+2022, Pre-print
+2022,NCScope: Hardware-Assisted Analyzer for Native Code in Android AppsACM SIGSOFT Distinguished Paper
+2022, DOI
+2022,One Step Further: Evaluating Interpreters Using Metamorphic Testing
+2022, DOI
+2022,On the Use of Evaluation Measures for Defect Prediction Studies
+2022, DOI
+2022,On the Use of Mutation Analysis For Evaluating Student Test Suite Quality
+2022, DOI
+2022,Park: Accelerating Smart Contract Vulnerability Detection via Parallel-fork Symbolic Execution
+2022, DOI
+2022,Patch Correctness Assessment in Automated Program Repair Based on the Impact of Patches on Production and Test Code
+2022, DOI
+2022, Pre-print
+2022,Path-Sensitive Code Embedding via Contrastive Learning for Software Vulnerability Detection
+2022, DOI
+2022,PermDroid: Automatically Testing Permission-Related Behaviour of Android Applications
+2022, DOI
+2022,Precise and Efficient Atomicity Violation Detection for Interrupt-driven Programs via Staged Path Pruning
+2022, DOI
+2022,PrIntFuzz: Fuzzing Linux Drivers via Automated Virtual Device Simulation
+2022, DOI
+2022,Program Vulnerability Repair via Inductive Inference
+2022, DOI
+2022,RegMiner: Towards Constructing a Large Regression Dataset from Code Evolution History
+2022, DOI
+2022, Pre-print
+2022,Simple Techniques Work Surprisingly Well for Neural Network Test Prioritization and Active Learning (Replicability Study)
+2022, DOI
+2022, Pre-print
+2022,SLIME: Program-sensitive Energy Allocation for Fuzzing
+2022, DOI
+2022,SmartDagger : A Bytecode-based Static Analysis Approach for Detecting Cross-contract Vulnerability
+2022, DOI
+2022,SnapFuzz: High-Throughput Fuzzing of Network Applications
+2022, DOI
+2022,TELL: Log Level Suggestions via Modeling Multi-level Code Block Information
+2022, DOI
+2022,TensileFuzz: Facilitating Seed Input Generation in Fuzzing via String Constraint Solving
+2022, DOI
+2022,Testing Dafny (Experience Paper)
+2022, DOI
+2022,Test Mimicry to Assess the Exploitability of Library Vulnerabilities
+2022, DOI
+2022,The Raise of Machine Learning Hyperparameter Constraints in Python CodeACM SIGSOFT Distinguished Paper
+2022, DOI
+2022,Understanding Device Integration Bugs in Smart Home System
+2022, DOI
+2022,Unicorn: Detect Runtime Error in Time-Series Databases With Hybrid Input Synthesis
+2022, DOI
+2022,Using Pre-trained Language Models to Resolve Textual and Semantic Merge Conflicts (Experience Paper)
+2022, DOI
+2022,WASAI: Uncovering Vulnerabilities in Wasm Smart Contracts
+2022, DOI
+2022,¦Å-weakened Robustness of Deep Neural Networks
+2022, DOI
