@@ -61,7 +61,7 @@ function find_user_network(){
 function logout_user_network(){
   NET_INFO=$(curl 'http://10.0.1.165/F.htm')
   if echo "$NET_INFO" | grep -q "Logout Error(-1)"; then
-      echo "》》》》》》》》Logout Error(-1)  大改意思就是目前没有账号正在登录，需要登陆一个新账号《《《《《《《《"
+      echo "》》》》》》》》Logout Error(-1)  大概意思就是目前没有账号正在登录，需要登陆一个新账号《《《《《《《《"
   else
       echo "》》》》》》》》注销成功《《《《《《《《"
   fi
