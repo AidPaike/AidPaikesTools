@@ -5,8 +5,7 @@
 # shellcheck disable=SC2028
 
 
-##202233397
-##14657X
+
 function login_campus_network() {
     read -p "请输入学号：" name
     if [ -z $name ]; then
