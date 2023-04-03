@@ -1,5 +1,5 @@
 # linux登陆校园网NWUNET的脚本
-# cxk  fzy(练习市场两年半)
+# cxk  fzy(练习时常两年半)
 # 2021.4.14
 # 2023.4.3
 # shellcheck disable=SC2028
