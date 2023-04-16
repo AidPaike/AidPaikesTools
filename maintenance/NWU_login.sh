@@ -48,7 +48,7 @@ function find_user_network(){
   flow=$(echo "$NET_INFO" | grep -oP "(?<=flow=')[^']+(?=')" )
 #  flow_gb=$(echo "$flow / 1024 / 1024 / 1024" | bc)
   # shellcheck disable=SC2004
-  flow=$(($flow / 1024 / 1024))
+  flow=$((flow / 1024 / 1024))
   # 提取uid
   uid=$(echo "$NET_INFO" | grep -oP "(?<=uid=')[^']+(?=')" )
 
